@@ -154,6 +154,8 @@ button:focus {
 	.pb-80px {
 		padding-bottom: 80px
 	}
+
+	
 }
 
 .mb-50px {
@@ -189,6 +191,44 @@ button:focus {
 @media (max-width: 991px) {
 	.header_area .navbar-right {
 		margin: 20px 0
+	}
+
+	.hero-banner {
+		padding-top: 60%;
+	}
+
+	#header-home
+	{
+		
+	   font-family: "Oswald", sans-serif;
+		text-shadow:
+		    0.02em 0  #0b5345,
+		    0 0.02em  #0b5345,
+		    -0.02em 0  #0b5345,
+		    0 -0.02em   #0b5345 ,
+		    -0.03em -0.05em gray,
+		    -0.03em 0.05em gray,
+		    0.03em -0.05em gray,
+		    0.03em 0.05em gray; padding: 0; margin: 0;
+		 font-weight: 700;
+		 font-size: 45px;
+	}
+
+	#header-details
+	{
+		margin-top: 20px;
+		font-family: "Oswald", sans-serif;
+		text-shadow:
+	        0.02em 0  #0b5345,
+	        0 0.02em  #0b5345,
+	        -0.02em 0  #0b5345,
+	        0 -0.02em   #0b5345 ,
+	        -0.03em -0.05em gray,
+	        -0.03em 0.05em gray,
+	        0.03em -0.05em gray,
+	        0.03em 0.05em gray; padding: 0; margin: 0;
+	     font-weight: 500;
+	     font-size: 18px;
 	}
 }
 
@@ -1354,7 +1394,7 @@ h1 {
 	width: 100%;
 	height: 100%;
 	z-index: -2;
-	opacity: 0.4;
+	opacity: 0.8;
 }
 
 /* Testimonials Section

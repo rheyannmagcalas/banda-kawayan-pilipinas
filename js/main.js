@@ -46,17 +46,14 @@ $(function() {
 });
 
 $(document).ready(function(){
-   $('ul#ul-about-us li').click(function(e) 
-    { 
-      $("#header-ul li.active").removeClass('active');
-      $("#li-about-us").addClass('active');
-    });
-
    $('#header-ul li').click(function(e) 
     { 
+      $("#header-ul li.active").removeClass('active');
       if(this.id != "li-about-us"){
-        $("#header-ul li.active").removeClass('active');
+        
         $(this).addClass('active');
+      } else{
+        $("#li-about-us").addClass('active');
       }
     });
 
